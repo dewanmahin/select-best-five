@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    height: 450px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.header-img img{
+    position: relative;
+    bottom: -13px;
+}
+.header-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-txt .txt{
+    width: 800px;
+}
+.header-txt h1{
+    color: #FF5E19;
+    font-size: 76px;
+}
+.header-txt p{
+    color: white;
+    font-size: 20px;
+}
