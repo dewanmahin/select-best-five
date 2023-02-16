@@ -72,13 +72,13 @@
     width: 100%;
     box-sizing: border-box;
 }
-.name-list, .budget{
+.name-card, .budget{
     background-color: black;
     padding: 25px 20px;
     color: white;
     margin-bottom: 20px;
 }
-.name-list h2, .budget h2{
+.name-card h2, .budget h2{
     text-align: center;
     margin-bottom: 30px;
 }
